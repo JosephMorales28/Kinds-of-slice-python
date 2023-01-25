@@ -7,6 +7,12 @@ print(proglang[2:])
 print(proglang[-1:])
 print(proglang[:-1])
 print(proglang[1:-3])
+x=slice(0,5,2)
+print(proglang[x])
+i=slice(0,-1)
+print(proglang[i])
+j=slice(-1,-5,-1)
+print(proglang[j])
 
 #[HTML,CSS,JavaScript]
 #[CSS,JavaScript]
@@ -16,3 +22,6 @@ print(proglang[1:-3])
 #[Python]
 #[HTML,CSS,JavaScript,Java,PHP,MySQL]
 #[CSS,JavaScript,Java]
+#[HTML,JavaScript,PHP]
+#[HTML,CSS,JavaScript,Java,PHP,MySQL]
+#[Python,MySQL,PHP,Java]
